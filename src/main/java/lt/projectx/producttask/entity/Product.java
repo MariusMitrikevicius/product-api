@@ -15,7 +15,7 @@ import lombok.ToString;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
     private String name;
     private Integer price;
     private Integer quantity;
@@ -23,3 +23,4 @@ public class Product {
 
 
 }
+//Čia yra lenta kuri pasako kokie laukai bus dumbazė, kokius laukus turės produktas
